@@ -114,7 +114,7 @@ function bfs() {
     (function (n, index) {
       setTimeout(() => {
         fillToColor(n.value, "gold");
-      }, index * 500);
+      }, index * 1200);
     })(node, i);
 
     i++;
@@ -153,7 +153,7 @@ function dfs() {
     (function (n, index) {
       setTimeout(() => {
         fillToColor(n.value, "gold");
-      }, index * 500);
+      }, index * 1200);
     })(node, i);
 
     i++;
