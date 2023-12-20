@@ -100,7 +100,7 @@ function createNodes(list) {
 
   return new_list;
 }
-
+// this is ythe main function of the BFS
 function bfs() {
   clearAnimations();
   var root = globalTree;
@@ -139,7 +139,7 @@ function bfs() {
   }
   displayResult(result);
 }
-
+// this is ythe main function of the DFS
 function dfs() {
   clearAnimations();
   var root = globalTree;
@@ -171,7 +171,7 @@ function dfs() {
   traverse(globalTree);
   displayResult(result);
 }
-
+// this function will just display the traversal result on top left of website  
 function displayResult(result) {
   let resultDiv = document.getElementById("traversalResult");
   let traversalContainer = document.getElementById("traversalContainer");
