@@ -264,3 +264,77 @@ body {
   top: -10px;
   text-align: center;
 }
+
+/* love and support wala */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #1a237e;
+  color: white;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.heart {
+  color: red;
+  animation: beat 0.5s infinite;
+}
+
+@keyframes beat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2.3);
+  }
+}
+
+.heart {
+  display: inline-block;
+  width: 26px;
+  height: 24px;
+  margin: 0 4px;
+  vertical-align: middle;
+}
+
+.heart svg {
+  fill: red;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+/* hemant ka colour  */
+
+/* .animated-text {
+  animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+  0%, 100% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: purple;
+  }
+} */
